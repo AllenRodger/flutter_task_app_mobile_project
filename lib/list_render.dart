@@ -1,9 +1,8 @@
 import 'package:flutter/material.dart';
 import 'task_class.dart';
-
 class ListRender extends StatefulWidget {
-  final Task task;
 
+  final Task task;
   ListRender(this.task);
   @override
   _ListRenderState createState() => _ListRenderState();
@@ -45,31 +44,31 @@ class _ListRenderState extends State<ListRender> {
   @override
   Widget build(BuildContext context) {
     return CheckboxListTile(
-      value: widget.task.isDone,
-      activeColor: Colors.green,
-      title: Text(widget.task.title,style: TextStyle(fontSize: 20),),
-      subtitle: Text(ShowDescription(widget.task),style: TextStyle(fontSize: 15)),
-      secondary: SizedBox(
-        width: 50,
-        height: 50,
-        child: Stack(
-          children: <Widget>[
-            Icon(ArrowIcon(),size: 40,),
-            GestureDetector(
-              onTap: (){
-                setState(() {
-                  widget.task.changeShowingDescription();
-                });
-              },
-            )
-          ],
-        )),
-      onChanged: (context) {
-        setState(() {
-          widget.task.changeValue();
-          return widget.task.isDone;
-        });
-      }
+        value: widget.task.isDone,
+        activeColor: Colors.green,
+        title: Text(widget.task.title,style: TextStyle(fontSize: 20),),
+        subtitle: Text(ShowDescription(widget.task),style: TextStyle(fontSize: 15)),
+        secondary: SizedBox(
+          width: 50,
+          height: 50,
+          child: Stack(
+            children: <Widget>[
+              Icon(ArrowIcon(),size: 40,),
+              GestureDetector(
+                onTap: (){
+                  setState(() {
+                    widget.task.changeShowingDescription();
+                  });
+                },
+              )
+            ],
+          )),
+        onChanged: (context) {
+          setState(() {
+            widget.task.changeValue();
+            return widget.task.isDone;
+          });
+        }
     );
   }
 

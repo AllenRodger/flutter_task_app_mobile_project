@@ -1,4 +1,4 @@
-#Tue Oct 20 10:53:38 BRT 2020
-base.0=/home/allenrodger/Documents/MobileDev/todo_list/build/app/intermediates/dex/debug/mergeDexDebug/out/classes.dex
+#Thu Oct 22 17:32:23 BRT 2020
+base.0=/home/allenrodger/Documents/GithubRepositories/flutter_task_app_mobile_project/build/app/intermediates/dex/debug/mergeDexDebug/out/classes.dex
 path.0=classes.dex
 renamed.0=classes.dex
