@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">84280812945-djlpn96kr3rp8m64rcrd8vqtd5200da1.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://to-do-list-database-21be8.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">84280812945</string>
+    <string name="google_api_key" translatable="false">AIzaSyBJIBU-wGUGfdQsCKWT569hUFu1qonjx-I</string>
+    <string name="google_app_id" translatable="false">1:84280812945:android:f3b45d17a5c83b7e01e630</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBJIBU-wGUGfdQsCKWT569hUFu1qonjx-I</string>
+    <string name="google_storage_bucket" translatable="false">to-do-list-database-21be8.appspot.com</string>
+    <string name="project_id" translatable="false">to-do-list-database-21be8</string>
+</resources>
